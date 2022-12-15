@@ -31,7 +31,6 @@ cd ort
 ```
 
 ### Build ORT
-We change the repeat time each instance in tuning to 100. (build_ck.sh line8)
 ```bash
 ./build_ort.sh
 ```
@@ -48,7 +47,8 @@ The default initialilzation is demical initialization. Please modify related tes
 
 float16 M=49152 N=3072 K=768 notrans notrans
 
-Gemm
+### Gemm
+
 We record the performance of instance DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1, which is the best instance selected by CK.
 | init method |  ORT(ms)   | CK(ms)  |
 | ---------- |  ----  | ----  |
@@ -56,7 +56,7 @@ We record the performance of instance DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32,
 | integer| 1.651  | 1.6828 |
 | demical| 2.071 |1.81792|
 
-GemmFastGelu
+### GemmFastGelu
 
 We record the performance of instance DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
 , which is the best instance selected by CK.

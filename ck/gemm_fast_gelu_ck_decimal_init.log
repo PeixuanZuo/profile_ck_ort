@@ -1,0 +1,199 @@
+a_m_k: dim 2, lengths {49152, 768}, strides {768, 1}
+b_k_n: dim 2, lengths {768, 3072}, strides {3072, 1}
+d0_m_n: dim 2, lengths {49152, 3072}, strides {0, 1}
+d1_m_n: dim 2, lengths {49152, 3072}, strides {0, 1}
+e_m_n: dim 2, lengths {49152, 3072}, strides {3072, 1}
+found 48 instances
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.31544 ms, 100.166 TFlops, 165.068 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.27087 ms, 102.132 TFlops, 168.308 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.46794 ms, 93.9764 TFlops, 154.868 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:     2.3968 ms, 96.7657 TFlops, 159.465 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.92333 ms, 79.3371 TFlops, 130.743 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.87569 ms, 80.6514 TFlops, 132.909 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.31087 ms, 100.364 TFlops, 165.395 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.30317 ms, 100.7 TFlops, 165.948 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.81835 ms, 82.2921 TFlops, 135.613 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:     2.7502 ms, 84.3315 TFlops, 138.974 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.79467 ms, 82.9894 TFlops, 136.762 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.73735 ms, 84.7272 TFlops, 139.626 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.62306 ms, 88.419 TFlops, 145.71 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:     2.6979 ms, 85.9664 TFlops, 141.668 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.58055 ms, 89.8755 TFlops, 148.11 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.53137 ms, 91.6218 TFlops, 150.988 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.36567 ms, 98.0391 TFlops, 161.563 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.35606 ms, 98.4389 TFlops, 162.222 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.31484 ms, 100.192 TFlops, 165.112 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.32033 ms, 99.9547 TFlops, 164.72 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.85446 ms, 81.2511 TFlops, 133.898 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.89339 ms, 80.1581 TFlops, 132.096 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.24849 ms, 103.148 TFlops, 169.983 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.18482 ms, 106.154 TFlops, 174.937 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:     2.6095 ms, 88.8784 TFlops, 146.467 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.57619 ms, 90.0277 TFlops, 148.361 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.61061 ms, 88.8408 TFlops, 146.405 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.59106 ms, 89.5111 TFlops, 147.51 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.54715 ms, 91.054 TFlops, 150.052 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.67689 ms, 86.6408 TFlops, 142.78 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.52182 ms, 91.9686 TFlops, 151.56 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.44974 ms, 94.6748 TFlops, 156.019 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.48677 ms, 93.2649 TFlops, 153.696 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.41534 ms, 96.0232 TFlops, 158.241 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.34441 ms, 98.9283 TFlops, 163.029 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {4608, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.30028 ms, 100.826 TFlops, 166.156 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.85694 ms, 81.1805 TFlops, 133.781 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.84036 ms, 81.6546 TFlops, 134.563 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.34412 ms, 98.9404 TFlops, 163.049 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {9216, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.37291 ms, 97.7398 TFlops, 161.07 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.66479 ms, 87.0343 TFlops, 143.428 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.60093 ms, 89.1712 TFlops, 146.95 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:     2.6455 ms, 87.6691 TFlops, 144.474 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {128, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.64868 ms, 87.5637 TFlops, 144.3 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.60514 ms, 89.0271 TFlops, 146.712 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.75038 ms, 84.3259 TFlops, 138.965 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.58893 ms, 89.5847 TFlops, 147.631 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2
+launch_and_time_kernel: grid_dim {18432, 1, 1}, block_dim {256, 1, 1} 
+Warm up 1 time
+Start running 100 times...
+Perf:    2.53235 ms, 91.5863 TFlops, 150.93 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2
+Best Perf: 2.18482 ms, 106.154 TFlops, 174.937 GB/s, DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1

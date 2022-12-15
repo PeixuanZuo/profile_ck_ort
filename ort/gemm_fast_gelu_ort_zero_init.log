@@ -1,0 +1,98 @@
+GemmFastGeluUnfused                                float16 NN m=49152 n=3072 k=768  2046.2885 us 113.34 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2040.9477 us 113.64 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2013.5682 us 115.18 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2179.9803 us 106.39 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2123.9736 us 109.20 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2605.7470 us 89.01 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2592.0062 us 89.48 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1998.9154 us 116.03 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1998.6930 us 116.04 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2542.6092 us 91.22 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2455.8058 us 94.44 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2476.2330 us 93.66 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2411.2389 us 96.19 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2320.1218 us 99.96 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2377.5909 us 97.55 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2215.5485 us 104.68 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2151.2537 us 107.81 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2108.9416 us 109.97 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2104.7671 us 110.19 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2049.5253 us 113.16 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2057.1091 us 112.74 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2717.2599 us 85.35 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2526.0923 us 91.81 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1917.3439 us 120.96 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1885.4349 us 123.01 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2298.7056 us 100.90 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2267.3838 us 102.29 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2255.3422 us 102.84 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2245.5487 us 103.28 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2221.5676 us 104.40 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2332.1714 us 99.45 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2124.0358 us 109.19 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2054.1189 us 112.91 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2241.0781 us 103.49 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2158.6857 us 107.44 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2063.0741 us 112.42 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2029.0883 us 114.30 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2548.3820 us 91.01 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2530.2939 us 91.66 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2054.1348 us 112.91 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2096.9927 us 110.60 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2370.1124 us 97.86 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2364.6979 us 98.08 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2290.8623 us 101.24 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2316.4818 us 100.12 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2291.9505 us 101.19 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2432.3783 us 95.35 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2243.1679 us 103.39 tflops
+withbias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2162.8697 us 107.23 tflops
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 256, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 256, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<128, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 128, 64, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 2, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+nobias DeviceGemmMultipleD_Xdl_CShuffle<256, 64, 128, 32, 8, 8, Default> LoopScheduler: Default, PipelineVersion: v2 float16 NN not supported
+GemmFastGeluTunable                                float16 NN m=49152 n=3072 k=768  1885.3996 us 123.01 tflops

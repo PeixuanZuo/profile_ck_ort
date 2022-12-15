@@ -1,0 +1,105 @@
+Rocblas                                            float16 NN m=49152 n=3072 k=768  1598.1772 us 145.12 tflops
+DeviceGemmXdl<256, 256, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1703.7549 us 136.13 tflops
+DeviceGemmXdl<256, 128, 256, 4, 8, 32, 32, 2, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1796.7601 us 129.08 tflops
+DeviceGemmXdl<128, 128, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2036.5438 us 113.88 tflops
+DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1631.2649 us 142.18 tflops
+DeviceGemmXdl<128, 128, 64, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2106.2095 us 110.12 tflops
+DeviceGemmXdl<128, 64, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1996.6267 us 116.16 tflops
+DeviceGemmXdl<256, 128, 64, 4, 8, 32, 32, 2, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2093.7886 us 110.77 tflops
+DeviceGemmXdl<256, 64, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1745.7070 us 132.86 tflops
+DeviceGemmXdl<128, 32, 256, 4, 8, 32, 32, 1, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  4140.9407 us 56.01 tflops
+DeviceGemmXdl<128, 32, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2595.0406 us 89.37 tflops
+DeviceGemmXdl<128, 32, 64, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  3097.4636 us 74.88 tflops
+DeviceGemmXdl<64, 32, 32, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  5778.0018 us 40.14 tflops
+DeviceGemmXdl<128, 16, 256, 4, 8, 16, 16, 1, 8> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  7322.5789 us 31.67 tflops
+DeviceGemmXdl<128, 16, 128, 4, 8, 16, 16, 1, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  4663.3601 us 49.73 tflops
+DeviceGemmXdl<128, 16, 64, 4, 8, 16, 16, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  4778.7461 us 48.53 tflops
+DeviceGemmXdl<128, 16, 32, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  8808.9762 us 26.33 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  16799.6330 us 13.81 tflops
+DeviceGemmXdl<256, 256, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1730.4062 us 134.03 tflops
+DeviceGemmXdl<256, 128, 256, 4, 8, 32, 32, 2, 4> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1649.0140 us 140.65 tflops
+DeviceGemmXdl<128, 128, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1989.8857 us 116.55 tflops
+DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1582.6616 us 146.54 tflops
+DeviceGemmXdl<128, 128, 64, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2080.8158 us 111.46 tflops
+DeviceGemmXdl<128, 64, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1833.9812 us 126.46 tflops
+DeviceGemmXdl<256, 128, 64, 4, 8, 32, 32, 2, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2096.3423 us 110.63 tflops
+DeviceGemmXdl<256, 64, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1725.6191 us 134.40 tflops
+DeviceGemmXdl<128, 32, 256, 4, 8, 32, 32, 1, 4> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  3618.7699 us 64.09 tflops
+DeviceGemmXdl<128, 32, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2434.0048 us 95.29 tflops
+DeviceGemmXdl<128, 32, 64, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  3137.5613 us 73.92 tflops
+DeviceGemmXdl<64, 32, 32, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  5792.4232 us 40.04 tflops
+DeviceGemmXdl<128, 16, 256, 4, 8, 16, 16, 1, 8> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  7143.1646 us 32.47 tflops
+DeviceGemmXdl<128, 16, 128, 4, 8, 16, 16, 1, 4> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  4601.8624 us 50.40 tflops
+DeviceGemmXdl<128, 16, 64, 4, 8, 16, 16, 1, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  4775.9686 us 48.56 tflops
+DeviceGemmXdl<128, 16, 32, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  8814.3301 us 26.31 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  16817.5812 us 13.79 tflops
+DeviceGemmXdl<256, 256, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1922.9062 us 120.61 tflops
+DeviceGemmXdl<256, 128, 256, 4, 8, 32, 32, 2, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1711.7308 us 135.49 tflops
+DeviceGemmXdl<128, 128, 128, 4, 8, 32, 32, 4, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2049.3102 us 113.17 tflops
+DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1656.3275 us 140.03 tflops
+DeviceGemmXdl<128, 128, 64, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2092.9551 us 110.81 tflops
+DeviceGemmXdl<128, 64, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1914.2871 us 121.16 tflops
+DeviceGemmXdl<256, 128, 64, 4, 8, 32, 32, 2, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2121.7153 us 109.31 tflops
+DeviceGemmXdl<256, 64, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1761.5440 us 131.66 tflops
+DeviceGemmXdl<128, 32, 256, 4, 8, 32, 32, 1, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  3774.3003 us 61.45 tflops
+DeviceGemmXdl<128, 32, 128, 4, 8, 32, 32, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2479.8641 us 93.52 tflops
+DeviceGemmXdl<128, 32, 64, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  3112.1182 us 74.52 tflops
+DeviceGemmXdl<64, 32, 32, 4, 8, 32, 32, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  5791.8119 us 40.04 tflops
+DeviceGemmXdl<128, 16, 256, 4, 8, 16, 16, 1, 8> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  7108.0995 us 32.63 tflops
+DeviceGemmXdl<128, 16, 128, 4, 8, 16, 16, 1, 4> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  4674.0322 us 49.62 tflops
+DeviceGemmXdl<128, 16, 64, 4, 8, 16, 16, 1, 2> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  4758.9555 us 48.74 tflops
+DeviceGemmXdl<128, 16, 32, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  8781.7602 us 26.41 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  16810.5717 us 13.80 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  16801.6682 us 13.80 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  16818.1934 us 13.79 tflops
+DeviceGemmXdl<64, 16, 16, 4, 8, 16, 16, 1, 1> NumPrefetch: 1, LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  16805.5401 us 13.80 tflops
+DeviceGemmDl<256, 128, 128, 16, 2, 4, 4, 1>        float16 NN not supported
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1739.5390 us 133.33 tflops
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1738.0495 us 133.44 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1801.0594 us 128.77 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1820.7682 us 127.38 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2031.4028 us 114.17 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2059.0796 us 112.64 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1648.8204 us 140.66 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1651.8954 us 140.40 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2126.9872 us 109.04 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2096.9181 us 110.60 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1968.2488 us 117.83 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2021.6460 us 114.72 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2100.2207 us 110.43 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2093.5519 us 110.78 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1809.6145 us 128.16 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1734.3199 us 133.73 tflops
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1818.2340 us 127.56 tflops
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1781.9537 us 130.15 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1681.5327 us 137.93 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1707.9293 us 135.79 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1987.9913 us 116.66 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1992.5084 us 116.40 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1600.2568 us 144.93 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1609.6218 us 144.09 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2063.6334 us 112.39 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2053.5421 us 112.94 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1849.6083 us 125.39 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1852.7957 us 125.18 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2095.7696 us 110.66 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  2097.0991 us 110.59 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 2> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1772.7393 us 130.83 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 8> LoopScheduler: Interwave, PipelineVersion: v1 float16 NN m=49152 n=3072 k=768  1725.4479 us 134.42 tflops
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1995.0827 us 116.25 tflops
+DeviceGemm_Xdl_CShuffle<256, 256, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2035.6717 us 113.93 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1754.8833 us 132.16 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 256, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1752.1983 us 132.36 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2054.0876 us 112.91 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2044.9004 us 113.42 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1783.1218 us 130.07 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1779.2799 us 130.35 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2088.1999 us 111.07 tflops
+DeviceGemm_Xdl_CShuffle<128, 128, 64, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2085.4750 us 111.21 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1887.4742 us 122.88 tflops
+DeviceGemm_Xdl_CShuffle<128, 64, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1929.7496 us 120.19 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2103.4944 us 110.26 tflops
+DeviceGemm_Xdl_CShuffle<256, 128, 64, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  2136.3616 us 108.56 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 2> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1856.9860 us 124.89 tflops
+DeviceGemm_Xdl_CShuffle<256, 64, 128, 32, 8, 8> LoopScheduler: Default, PipelineVersion: v2 float16 NN m=49152 n=3072 k=768  1771.4896 us 130.92 tflops
+Tunable                                            float16 NN m=49152 n=3072 k=768  1580.8121 us 146.71 tflops

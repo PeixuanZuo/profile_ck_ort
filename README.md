@@ -45,6 +45,9 @@ We change the repeat time each instance in tuning to 100. (build_ck.sh line8)
 The default initialilzation is demical initialization. Please modify related test file to change the initialization method. See more details on test_gemm.sh and test_gemm_fast_gelu.sh.
 
 ## Result
+
+float16 M=49152 N=3072 K=768 notrans notrans
+
 Gemm
 We record the performance of instance DeviceGemmXdl<256, 128, 128, 4, 8, 32, 32, 2, 2> NumPrefetch: 1, LoopScheduler: Interwave, PipelineVersion: v1, which is the best instance selected by CK.
 | init method |  ORT(ms)   | CK(ms)  |

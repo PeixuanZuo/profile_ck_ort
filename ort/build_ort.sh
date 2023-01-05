@@ -16,7 +16,7 @@ cd ${THIS_DIR}
 git clone https://github.com/microsoft/onnxruntime.git -b peixuanzuo/gemmfastgelu_ck_2
 cd onnxruntime
 # use the ck commit d58b7f5155b44c8b608f3edc6a6eab314493ec1a
-git checkout bea36119f473168dec98289349243a449d0350cf
+git checkout 936d65551f3e9e0fe425cb91e06031766d6eaa4e
 git submodule update --init
 
 # build ort with kernel explorer

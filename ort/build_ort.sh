@@ -13,10 +13,9 @@ pip install ninja
 
 cd ${THIS_DIR}
 
-git clone https://github.com/microsoft/onnxruntime.git -b peixuanzuo/gemmfastgelu_ck_2
+# use the ck commit 0345963eef4f92e9c5eab608bb8557b5463a1dcb
+git clone https://github.com/microsoft/onnxruntime.git
 cd onnxruntime
-# use the ck commit d58b7f5155b44c8b608f3edc6a6eab314493ec1a
-git checkout 936d65551f3e9e0fe425cb91e06031766d6eaa4e
 git submodule update --init
 
 # build ort with kernel explorer

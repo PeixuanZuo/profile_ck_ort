@@ -63,7 +63,7 @@ cd hipblaslt
 
 ## Result
 
-float16 M=49152 N=3072 K=768 notrans notrans float16
+float16 M=49152 N=3072 K=768 notrans notrans
 
 ### Gemm
 

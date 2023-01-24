@@ -22,7 +22,6 @@ git submodule update --init
 ./build.sh \
     --config Release \
     --enable_training \
-    --enable_training_torch_interop \
     --mpi_home /opt/ompi \
     --cmake_generator Ninja \
     --cmake_extra_defines \
